@@ -1,10 +1,8 @@
 # 吾輩は猫舌 / wagahai-nekojita
 
-I build working local-first software.
+I build local-first software and inspectable AI-assisted workflows.
 
-I also design AI-assisted development workflows that stay inspectable, reproducible, and safe for humans to continue.
-
-The common thread is making work easy to inspect: local storage, explicit boundaries, reproducible checks, and evidence a reviewer can follow.
+The common thread is making work easy to continue and review: local storage, explicit boundaries, reproducible checks, and evidence a reviewer can follow.
 
 ## Representative work
 
@@ -12,7 +10,7 @@ The common thread is making work easy to inspect: local storage, explicit bounda
 
 A local-first macOS clipboard manager that keeps clipboard history in private-by-default local storage and draws a clear line between source code, local data, and distribution.
 
-Shows: native Mac product development, local privacy boundaries, SQLite-backed persistence, Keychain use, and no-server product design.
+Shows: native Mac product development, local privacy boundaries, SQLite-backed persistence, Keychain use, and no backend dependency.
 
 ### [wn-setup](https://github.com/wagahai-nekojita/wn-setup)
 
@@ -28,6 +26,6 @@ Shows: note lifecycle design, Git-backed change history, durable Markdown struct
 
 ### [GitHub Activity Dashboard](https://github.com/wagahai-nekojita/github-activity-dashboard)
 
-A static dashboard that turns Git history into reviewable activity narratives so development work can be explained, inspected, and revisited after the fact.
+A static dashboard that turns Git history into reviewable development narratives.
 
 Shows: evidence-oriented portfolio presentation, Git-based activity analysis, static publishing, and reviewer-friendly development narratives.
