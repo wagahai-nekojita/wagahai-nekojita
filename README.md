@@ -16,9 +16,9 @@ Shows: native Mac product development, private-by-default local storage, and cle
 
 ### [wn-setup](https://github.com/wagahai-nekojita/wn-setup)
 
-A personal Codex setup for subagent-first automation, syncable configuration, and machine-verifiable run evidence.
+A local-first Codex workflow setup that treats GOAL.md as the execution contract, routes approved work through named lifecycle agents, and records evidence for after-the-fact review.
 
-Shows: permission boundaries, validation scripts, reviewable outputs, and AI-assisted development that does not rely on blind trust.
+Shows: execution contracts, approval gates, validation/review loops, gated repo-state operations, and local-first evidence boundaries.
 
 ### [unified-vault](https://github.com/wagahai-nekojita/unified-vault)
 
