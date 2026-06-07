@@ -10,9 +10,9 @@ The common thread is making work easy to inspect: local storage, explicit bounda
 
 ### [Forkclip](https://github.com/wagahai-nekojita/forkclip)
 
-A local-first macOS clipboard manager built with SwiftUI, AppKit, SQLite, and Keychain.
+A local-first macOS clipboard manager that keeps clipboard history in private-by-default local storage and draws a clear line between source code, local data, and distribution.
 
-Shows: native Mac product development, private-by-default local storage, and clear distribution boundaries.
+Shows: native Mac product development, local privacy boundaries, SQLite-backed persistence, Keychain use, and no-server product design.
 
 ### [wn-setup](https://github.com/wagahai-nekojita/wn-setup)
 
@@ -22,12 +22,12 @@ Shows: execution contracts, approval gates, validation/review loops, gated repo-
 
 ### [unified-vault](https://github.com/wagahai-nekojita/unified-vault)
 
-A local-first, Git-backed knowledge vault for turning rough inbox notes into structured, reviewable, publishable Markdown.
+A local-first, Git-backed knowledge vault that turns rough inbox notes into structured Markdown through explicit filing, review, and publication paths.
 
-Shows: Git-backed note filing, durable Markdown structure, and agent-friendly review paths.
+Shows: note lifecycle design, Git-backed change history, durable Markdown structure, agent-friendly review boundaries, and publishable knowledge workflows.
 
 ### [GitHub Activity Dashboard](https://github.com/wagahai-nekojita/github-activity-dashboard)
 
-A static demo that turns Git history into reviewable activity narratives.
+A static dashboard that turns Git history into reviewable activity narratives so development work can be explained, inspected, and revisited after the fact.
 
-Shows: how development activity can be explained, inspected, and reviewed after the fact.
+Shows: evidence-oriented portfolio presentation, Git-based activity analysis, static publishing, and reviewer-friendly development narratives.
