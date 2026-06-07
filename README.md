@@ -22,9 +22,9 @@ Shows: permission boundaries, validation scripts, reviewable outputs, and AI-ass
 
 ### [unified-vault](https://github.com/wagahai-nekojita/unified-vault)
 
-A local-first vault system for turning rough capture into structured, reviewable, publishable knowledge.
+A local-first, Git-backed knowledge vault for turning rough inbox notes into structured, reviewable, publishable Markdown.
 
-Shows: local, durable, agent-friendly knowledge workflows.
+Shows: Git-backed note filing, durable Markdown structure, and agent-friendly review paths.
 
 ### [GitHub Activity Dashboard](https://github.com/wagahai-nekojita/github-activity-dashboard)
 
