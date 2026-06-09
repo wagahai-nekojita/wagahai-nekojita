@@ -2,7 +2,12 @@
 
 I build local-first software and inspectable AI-assisted workflows.
 
-The common thread is making work easy to continue and review: local storage, explicit boundaries, reproducible checks, and evidence a reviewer can follow.
+The common thread is keeping work easy to continue, inspect, and review: local storage, explicit boundaries, reproducible checks, and evidence a reviewer can follow.
+
+## Current focus
+
+I am currently evolving wn-setup into ai-coding-runtime-setup, a tool-neutral runtime setup for GOAL-backed AI coding, evidence workers, and reviewable Git/GitHub records.
+It is public, but not pinned as representative work yet because the runtime architecture and promotion checks are still being stabilized.
 
 ## Representative work
 
