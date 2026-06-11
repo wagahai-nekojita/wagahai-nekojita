@@ -6,8 +6,10 @@ The common thread is keeping work easy to continue, inspect, and review: local s
 
 ## Current focus
 
-I am currently evolving wn-setup into ai-coding-runtime-setup, a tool-neutral runtime setup for GOAL-backed AI coding, evidence workers, and reviewable Git/GitHub records.
-It is public, but not pinned as representative work yet because the runtime architecture and promotion checks are still being stabilized.
+I currently operate with [Anchored Delivery](https://github.com/wagahai-nekojita/anchored-delivery), a two-file delivery policy for AI-assisted work: claims must cite re-checkable anchors, unknowns stay explicit instead of becoming claims, and findings pass a promotion check before they drive edits, commits, or decisions.
+It is public and in active operational testing, so details may still change.
+
+Earlier iterations of this workflow line — [wn-setup](https://github.com/wagahai-nekojita/wn-setup) and [ai-coding-runtime-setup](https://github.com/wagahai-nekojita/ai-coding-runtime-setup) — are archived as design records.
 
 ## Representative work
 
@@ -16,12 +18,6 @@ It is public, but not pinned as representative work yet because the runtime arch
 A local-first macOS clipboard manager that keeps clipboard history in private-by-default local storage and draws a clear line between source code, local data, and distribution.
 
 Shows: native Mac product development, local privacy boundaries, SQLite-backed persistence, Keychain use, and no backend dependency.
-
-### [wn-setup](https://github.com/wagahai-nekojita/wn-setup)
-
-A local-first Codex workflow setup that treats GOAL.md as the execution contract, routes approved work through named lifecycle agents, and records evidence for after-the-fact review.
-
-Shows: execution contracts, approval gates, validation/review loops, gated repo-state operations, and local-first evidence boundaries.
 
 ### [unified-vault](https://github.com/wagahai-nekojita/unified-vault)
 
