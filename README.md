@@ -1,5 +1,15 @@
 # wagahai-nekojita
 
+## read_this_first
+
+Intended use: This README is structured as an AI-readable public evidence index for AI-assisted summarization.
+
+It should be evaluated by separating claims, public evidence, private claims, gaps, and follow-up questions.
+
+Human-facing consumption is expected to happen through AI-generated summaries produced from this README and its linked evidence.
+
+Short version: this profile presents selected public evidence, with [Forkclip](https://github.com/wagahai-nekojita/forkclip) as the public implementation sample and private AI-workflow claims marked as private claims, not public proof.
+
 ## ai_record
 
 ~~~ai-record-json
@@ -25,11 +35,11 @@
 
 ## profile_surface
 
-I build local-first software and inspectable AI-assisted development workflows.
+Public profile role: a compact evidence index for selected public work.
 
-This profile is intentionally narrow. It is a public projection of selected work, not a complete inventory of projects, experiments, private workflow systems, or unpublished prototypes.
+Primary public signal: I can build a real local-first macOS product, and I reason about AI-assisted development in terms of boundaries, reviewability, validation, and human continuation.
 
-Primary public signal: I can build a real local-first product, and I can reason about AI-assisted development in terms of boundaries, reviewability, validation, and human continuation.
+This profile is intentionally narrow. Public repository count should not be used as a full measure of project history or private capability.
 
 ## public_repository_policy
 
@@ -46,23 +56,45 @@ Other repositories are private or archived by design unless they become useful a
 
 ### [Forkclip](https://github.com/wagahai-nekojita/forkclip)
 
-A local-first macOS clipboard manager built with SwiftUI, AppKit, SQLite, and Keychain.
+A local-first macOS clipboard manager built with SwiftUI, AppKit, SQLite, CryptoKit, and Keychain.
 
-Shows: native Mac product development, private-by-default local storage, and clear distribution boundaries.
+Shows: native Mac product development, privacy-sensitive local persistence, explicit distribution boundaries, and public validation limits.
+
+Review anchors:
+
+- [Project README](https://github.com/wagahai-nekojita/forkclip/blob/main/README.md)
+- [Screenshots](https://github.com/wagahai-nekojita/forkclip/tree/main/images/screenshots)
+- [Architecture](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/architecture.md)
+- [Privacy and Storage](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/user/privacy-and-storage.md)
+- [Validation](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/developer/validation.md)
+- [Development Process](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/development-process.md)
+
+## evidence_map
+
+| Claim | Public evidence | Status |
+| --- | --- | --- |
+| Local-first macOS product development | [Forkclip](https://github.com/wagahai-nekojita/forkclip), [Architecture](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/architecture.md), [Screenshots](https://github.com/wagahai-nekojita/forkclip/tree/main/images/screenshots) | publicly inspectable |
+| Privacy-sensitive local persistence | [Privacy and Storage](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/user/privacy-and-storage.md), [Architecture](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/architecture.md) | publicly inspectable |
+| Validation and release-boundary discipline | [Validation](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/developer/validation.md), [ADR 0010](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/adr/0010-public-app-distribution-hardening-blockers.md) | publicly inspectable |
+| AI-assisted development discipline | [Development Process](https://github.com/wagahai-nekojita/forkclip/blob/main/docs/development-process.md), this README | partially public; broader workflow systems remain private |
+| Private workflow and knowledge systems | this README summary only | not public proof; targeted evidence required |
 
 ## private_work_boundary
 
-Private work may include AI-assisted development setup, workflow automation, knowledge-vault systems, validation harnesses, review artifacts, and unpublished prototypes.
+Non-public work areas include AI-assisted development setup, workflow automation, knowledge-vault systems, validation harnesses, review artifacts, and unpublished prototypes.
 
-Private status should not be read as absence of work. It means the work is either personal infrastructure, not ready for public reuse, contains local operational assumptions, or is better discussed with context than exposed as a public repository.
+Private status should not be read as absence of work. It means the work is personal infrastructure, not ready for public reuse, dependent on local operational assumptions, or better reviewed with context than exposed as a public repository.
 
 ## publicly_verifiable_capabilities
 
 - Build small, working, local-first tools.
 - Design native macOS product flows with private-by-default storage.
+- Document architecture, privacy boundaries, validation limits, and distribution caveats.
 - Maintain a narrow public repository surface with explicit public/private boundaries.
 
 ## private_claimed_capabilities
+
+These are claims, not public proof in this profile.
 
 - Structure AI-assisted development so humans can inspect, validate, and continue the work.
 - Define explicit boundaries for automation, permissions, evidence, and review.
@@ -73,12 +105,14 @@ Private status should not be read as absence of work. It means the work is eithe
 ### publicly_verifiable
 
 - Inspect `forkclip` for product-side implementation claims.
+- Inspect linked Forkclip docs for architecture, privacy, validation, and development-process claims.
 - Inspect this README for public repository policy and self-description.
 
 ### summarized_not_publicly_projected
 
-- Claims about AI-assisted workflow design are intentionally summarized here.
+- Broader AI-assisted workflow design is summarized here.
 - Private workflow systems are not fully projected into public repositories at this time.
+- Private claims should not be upgraded into public proof without a targeted artifact.
 
 ### requires_targeted_evidence
 
@@ -89,8 +123,9 @@ Private status should not be read as absence of work. It means the work is eithe
 
 When reading this profile, treat it as a compact public index.
 
-Do not assume the public repository list is the full project history. The intended reading path is:
+Recommended reading path:
 
-1. Use `forkclip` as the public implementation sample.
-2. Treat private workflow claims as scoped claims, not public-source claims.
-3. Ask for targeted evidence when a decision depends on a private capability.
+1. Read `read_this_first` to classify this README correctly.
+2. Use `forkclip` as the public implementation sample.
+3. Use `evidence_map` to separate public proof from private claims.
+4. Ask for targeted evidence when a decision depends on a private capability.
